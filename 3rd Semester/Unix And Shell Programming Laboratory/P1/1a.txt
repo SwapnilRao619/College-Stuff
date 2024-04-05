@@ -1,0 +1,29 @@
+[Credits for this code: msrit.pages.dev]
+
+1) :w
+2) :10w test2.txt
+3) :1,$ s/AI/Artificial Learning/gc
+4) 5G
+   "add
+   :w
+   :e test2.txt
+   "ap
+5) 1G
+   15l
+   3j
+   2h
+   rM
+   :w
+6) :e test2.txt
+   3e
+   2b
+   X
+   $
+   :w 
+7) :e test1.txt
+   1G
+   2J
+8) 7G
+   dd
+   :wq!
+

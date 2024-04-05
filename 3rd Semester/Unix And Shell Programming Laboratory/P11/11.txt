@@ -1,0 +1,16 @@
+Create 4 entries of this: (one below the other, in sample.xml)
+
+<student>
+<name>name</name>
+<usn>usn</usn>
+<dept>dept</dept>
+</student>
+<dept>
+<name>name</name>
+<id>id</id>
+<total>total</total>
+
+
+1) sed "/dept/,/\dept/d" sample.xml >student.xml
+2) sed "/dept/,/\dept/s/name/deptname/g" sample.xml >dept.xml
+3) grep -oP '<usn>\K[^<]*' sample.xml > output.txt

@@ -1,0 +1,15 @@
+6bi)
+find . -type f -perm 0777
+
+6bii)
+chmod -R 1777 try/
+
+6biii)
+find . -type f -perm 777 | chmod -R 755 .
+
+6biv)
+find . -mtime -20
+find . -atime -20
+
+6bv)
+find . -mmin -60

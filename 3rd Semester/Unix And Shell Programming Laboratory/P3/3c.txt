@@ -1,0 +1,5 @@
+/usr/bin/crontab -e --> 1 --> 
+*/30 * * * * ./3bi.sh
+*/30 * * * * ./3bii.sh
+*/30 * * * * ./3biii.sh
+cntrl X, Y, enter

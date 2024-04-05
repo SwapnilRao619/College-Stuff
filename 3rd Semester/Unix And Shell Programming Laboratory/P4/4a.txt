@@ -1,0 +1,4 @@
+fallocate -l 1G 1.txt
+
+/usr/bin/crontab -e, 1, 
+0 10 * * 1 ./4a.sh

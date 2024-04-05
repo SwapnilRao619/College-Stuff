@@ -1,0 +1,36 @@
+[Credits for this code: msrit.pages.dev]
+
+mkdir dockerfiles
+cd dockerfiles
+
+1) vi 1.sh
+arg1=${1}
+arg2=${2}
+arg3=${3}
+while true; do
+echo "argument 1: $arg1"
+echo "argument 2: $arg2"
+echo "argument 3: $arg3"
+sleep 1
+done
+
+2) vi Dockerfile
+FROM ubuntu:latest
+copy ./1.sh /
+RUN chmod +x /1.sh
+ENTRYPOINT ["/1.sh"]
+CMD ["hai", "cybersecurity", "students"]
+
+3)
+sudo docker build -t script:1.0 "abs path to dockerfiles folder"
+
+docker images
+
+
+4)
+docker run --name cont1 -d script:1.0
+docker ps -a
+docker exec -it (container_id) /bin/bash
+
+5)
+sh 1.sh Hello cybersecurity students

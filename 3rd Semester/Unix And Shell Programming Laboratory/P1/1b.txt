@@ -1,0 +1,20 @@
+[Credits for this code: msrit.pages.dev]
+
+1G
+2w
+i< [ESC]
+A> [ESC]
+2j
+3svoid [ESC]
+j2e
+r"
+4w
+2x
+a\n [ESC]
+l
+r"
+A; [ESC]
+j$
+i(1) [ESC]
+o} [ESC]
+:x

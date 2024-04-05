@@ -1,0 +1,11 @@
+6ai)
+sed '2 s/Python/Perl/g' 1.txt
+
+6aii)
+sed '$ s/Programming/Scripting/' 1.txt
+
+6aiii)
+echo "/..../Python.txt" | sed 's/.*\///'
+
+6aiv)
+sed 's/\(Bash\)/Learn \1 Programming/' 1.txt
