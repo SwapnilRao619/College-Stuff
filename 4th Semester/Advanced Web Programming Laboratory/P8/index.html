@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <style>
+        body{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #srf{
+            border: 2px solid black;
+            width: 500px;
+            padding: 10px;
+        }
+        #fin{
+            margin-top:10px;
+            border: 2px solid black;
+        }
+    </style>
+    <body>
+        <div id="srf">
+            <h2>Registration Form</h2>
+            <h4>Student Name:</h4>
+            <input type="text" id="f1">
+            <h4>USN:</h4>
+            <input type="text" id="f2">
+            <h4>Phone Number:</h4>
+            <input type="number" id="f3">
+            <h4>Email:</h4>
+            <input type="email" id="f4">
+            <h4>Gender:</h4>
+            <input type="radio" name="one" value="Male"><label>Male</label>
+            <input type="radio" name="one" value="Female"><label>Female</label>
+            <input type="radio" name="one" value="Other"><label>Other</label>
+            <h4>Course to be selected:</h4>
+            <select id="f6">
+                <option>OS</option>
+                <option>COA</option>
+                <option>DBMS</option>
+                <option>DSA</option>
+            </select><br><br>
+            <input type="submit" onclick="gen()">
+            <div id="fin"></div>
+        </div>
+    </body>
+    <script>
+        function gen(){
+            let f1=document.querySelector("#f1").value  
+            let f2=document.querySelector("#f2").value  
+            let f3=document.querySelector("#f3").value     
+            let f4=document.querySelector("#f4").value 
+            let f5=document.querySelector('input[name="one"]:checked').value
+            let f6=document.querySelector("#f6").value
+            let inj=`<h2>Registration Details</h2><h4>Student Name: ${f1}</h4><h4>USN:${f2}</h4><h4>Phone Number: ${f3}</h4><h4>Email: ${f4}</h4><h4>Gender: ${f5}</h4><h4>Course selected: ${f6}</h4>`
+            const inje=document.querySelector("#fin")
+            inje.innerHTML=inj
+        }
+    </script>
+</html>

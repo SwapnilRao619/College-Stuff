@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Squares & Cubes</title>
+        <style>
+            table,th,td{
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="sqcu"></div>
+    </body>
+    <script>
+        const sqcu=document.querySelector("#sqcu")
+        let nr=prompt("Enter the range:")
+        let na=nr.split("-")
+        if(na.length!=2) alert("Invalid range!");
+        let n1=na[0];let n2=na[1];
+        let table="<table><tr><th>Number</th><th>Squares</th><th>Cubes</th></tr>"
+        for(let i=n1;i<=n2;i++){
+            table+=`<tr><td>${i}</td><td>${i*i}</td><td>${i*i*i}</td></tr>`
+        }
+        table+="</table>"
+        sqcu.innerHTML=table
+    </script>
+</html>

@@ -1,0 +1,10 @@
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+p{
+    cursor:not-allowed;
+}
+#lin:hover{
+    background-color: white;
+}

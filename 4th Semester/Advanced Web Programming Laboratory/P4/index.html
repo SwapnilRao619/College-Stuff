@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Calendar Generator</title>
+    </head>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+        <form>
+            <p>Select Month:</p>
+            <select id="selm">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Aug</option>
+                <option>Sept</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+            </select><br><br>
+            <p>Select Year:</p>
+            <select id="sely"></select><br><br>
+        </form>
+        <button onclick="gencal()">Generate Calendar</button><br><br>
+        <div id="calspace"></div>
+        <script>
+            const sely=document.querySelector("#sely")
+            const selm=document.querySelector("#selm")
+            const calspace=document.querySelector("#calspace")
+            for(let k=1950;k<=2050;k++){
+                let newel=document.createElement("option")
+                newel.innerText=k
+                sely.appendChild(newel)
+            }
+            function gencal(){
+                let year=parseInt(sely.value)
+                let month=parseInt(selm.selectedIndex)
+                let dim=new Date(year,month+1,0).getDate();
+                let fd=new Date(year,month,1).getDay();
+                let table="<table><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thurs</th><th>Fri</th><th>Sat</th></tr>"
+                let day=1
+                for(let i=0;i<6;i++){
+                    table+="<tr>"
+                    for(let j=0;j<7;j++){
+                        if(i===0 && j<fd || day>dim){
+                            table+="<td></td>"
+                        }
+                        else{
+                            table+=`<td>${day}</td>`
+                            day++;
+                        }
+                    }
+                    table+="</tr>"
+                    if(day>dim) break;
+                }
+                table+="</table>"
+                calspace.innerHTML=table
+            }
+        </script>
+    </body>
+</html>

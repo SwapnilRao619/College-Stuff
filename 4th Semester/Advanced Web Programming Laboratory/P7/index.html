@@ -1,0 +1,57 @@
+<html>
+   <head>
+      <title>Simple Calculator</title>
+   </head>
+   <style>
+      body{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+      #butdiv{
+         display:grid;
+         grid-template-columns: repeat(4,50px);
+         gap: 3px;
+      }
+      #disp{
+         margin-bottom: 5px;
+         grid-column: span 4;
+      }
+   </style>
+   <body>
+      <input type="text" id="disp" readonly>
+      <div id="butdiv">
+         <button onclick="cleard()">C</button>
+         <button onclick="d('/')">/</button>
+         <button onclick="d('*')">*</button>
+         <button onclick="d('-')">-</button>
+         <button onclick="d('1')">1</button>
+         <button onclick="d('2')">2</button>
+         <button onclick="d('3')">3</button>
+         <button onclick="d('+')">+</button>
+         <button onclick="d('4')">4</button>
+         <button onclick="d('5')">5</button>
+         <button onclick="d('6')">6</button>
+         <button onclick="ans()">=</button>
+         <button onclick="d('7')">7</button>
+         <button onclick="d('8')">8</button>
+         <button onclick="d('9')">9</button>
+         <button onclick="d('0')">0</button>
+      </div>
+   </body>
+   <script>
+      const disp=document.querySelector("#disp")
+      function d(value){
+         disp.value+=value
+      }
+      function cleard(){
+         disp.value=""
+      }
+      function ans(){
+         let exp=disp.value
+         let ans=eval(exp)
+         disp.value=ans
+      }
+   </script>
+</html>

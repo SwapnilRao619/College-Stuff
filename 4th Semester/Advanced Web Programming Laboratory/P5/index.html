@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Exam Form</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">CSE(AIML) Exam Form</h1>
+        <form onSubmit="exam(this,event)">
+            <h2>Q1. Wh1111111at is the full form of CSE?</h2>
+            <input type="radio" name="one"><label>CS</label>
+            <input type="radio" name="one"><label>CES</label>
+            <input type="radio" name="one"><label>CSE</label>
+            <input type="radio" name="one"><label>SCE</label>
+            <h2>Q1. What is the full form of AI?</h2>
+            <input type="radio" name="two"><label>I</label>
+            <input type="radio" name="two"><label>A</label>
+            <input type="radio" name="two"><label>IA</label>
+            <input type="radio" name="two"><label>AI</label>
+            <h2>Q1. What is the full form of ML?</h2>
+            <input type="radio" name="three"><label>M</label>
+            <input type="radio" name="three"><label>ML</label>
+            <input type="radio" name="three"><label>L</label>
+            <input type="radio" name="three"><label>LM</label>
+            <h2>Q1. What is the full form of AIML?</h2>
+            <input type="radio" name="four"><label>IMAL</label>
+            <input type="radio" name="four"><label>MAIL</label>
+            <input type="radio" name="four"><label>AILM</label>
+            <input type="radio" name="four"><label>AIML</label><br><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <script>
+            let i=0
+            function exam(form,event){
+                event.preventDefault();
+                if(form.one[2].checked) i++
+                if(form.two[3].checked) i++
+                if(form.three[1].checked) i++
+                if(form.four[3].checked) i++
+                alert(`Your score is: ${i}!`)
+            }
+        </script>
+    </body>
+</html>

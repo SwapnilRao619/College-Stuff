@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Text Size</title>
+    </head>
+    <body>
+        <p id="t">TEXT GROWING</p>
+        <script>
+            let s=5,g=1;
+            (function doit(){
+                let t=document.querySelector("#t")
+                t.style.fontSize=s+"pt"
+                g?t.style.color="red":t.style.color="blue"
+                g?s+=1:s-=1;
+                if(s>50){
+                    g=0
+                    t.innerText="TEXT SHRINKING"
+                }
+                if(s>4){
+                    setTimeout(doit,100)
+                }
+            })();
+        </script>
+    </body>
+</html>
