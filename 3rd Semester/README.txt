@@ -1,10 +1,10 @@
-Hey guys,
-Swapnil Rao here, 5th-sem senior from CSE(CY).
+Hey guys.
+Swapnil Rao here. 5th-sem senior from CSE(CY).
 
 Both CSE(CY) and CSE(AIML) have the same QP, subjects and syllabus for 3rd semester, so this compilation will benefit the both.
 
 The link:
-3rd Semester Resources for CSE(AIML & CY)
+https://github.com/SwapnilRao619/College-Stuff/tree/master/3rd%20Semester
 
 Please do note that it contains all notes for all the 9 subjects along with the manual for integrated lab course in DBMS (not sure if you guys have it anymore).
 Heard that UI/UX Design is replaced by NoSQL, so you could maybe use the manual PDF for that instead.
