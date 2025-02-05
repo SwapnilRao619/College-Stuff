@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Session Tracker</title>
+</head>
+<body>
+<div id="f">
+Name: <input id="name"><br><br>
+<button onclick="login()">Login</button>
+</div>
+<div id="s" style="display:none">
+<p id="l"></p>
+<button id="button" onclick="logout()">Logout</button>
+</div>
+</body>
+<script>
+let t;
+function login(){
+	t=new Date();
+	document.getElementById("f").style.display="none";
+	document.getElementById("l").innerHTML=`Hello ${document.getElementById("name").value}<br><br>Start Time: ${t.toLocaleTimeString()}`;
+	document.getElementById("s").style.display="block";
+}
+function logout(){
+	document.getElementById("s").style.display="none";
+	document.getElementById("l").innerHTML=`Thank you ${document.getElementById("name").value}!<br><br>Session Time: ${Math.floor((new Date()-t)/1000)} seconds.`;
+	document.getElementById("s").style.display="block";
+	document.getElementById("button").style.display="none";
+}
+</script>
+</html>

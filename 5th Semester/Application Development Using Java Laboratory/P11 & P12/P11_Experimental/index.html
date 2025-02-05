@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Voter App</title>
+</head>
+<body>
+<form onsubmit="checkAge(event)">
+Name: <input type="text" id="name"><br>
+Age: <input type="number" id="age"><br>
+<input type="submit">
+</form>
+</body>
+<script>
+function checkAge(event){
+	event.preventDefault();
+	var name=document.getElementById("name").value;
+	var age=document.getElementById("age").value;
+	var message=age<18?`Hello ${name}, you are not authorized.`:`Welcome!`;
+	var color=age<18?"red":"green";
+	document.body.innerHTML=`<p class="message" style="color:${color}">${message}</p>`;
+}
+</script>
+</html>
