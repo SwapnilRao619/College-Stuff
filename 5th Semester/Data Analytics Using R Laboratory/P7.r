@@ -1,0 +1,5 @@
+library(dplyr);library(ggplot2)
+pd=data.frame(CustomerID=101:105,PurchaseAmount=c(150,200,120,300,80))
+cat("Data Frame:\n");print(pd)
+cat("Statistical Measurements:\n"); cat("Mean: ",mean(pd$PurchaseAmount),"\nMedian: ",median(pd$PurchaseAmount),"\nStandard Deviation: ",sd(pd$PurchaseAmount),"\n1st Quartile: ",quantile(pd$PurchaseAmount,0.25),"\n3rd Quartile: ",quantile(pd$PurchaseAmount,0.75))
+print(ggplot(pd,aes(PurchaseAmount))+geom_histogram(binwidth=50,fill="blue",color="black")+labs(title="Distribution of PurchaseAmount",x="PurchaseAmount",y="Frequency"))

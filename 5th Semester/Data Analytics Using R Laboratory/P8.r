@@ -1,0 +1,5 @@
+library(ggplot2);library(reshape2)
+mA=matrix(1:9,3,3,T);mB=matrix(9:1,3,3,T)
+sm=mA+mB;scm=mA*2;tA=t(mA);pm=mA%*%mB;sma=sum(mA);mmb=mean(mB);sdb=sd(mB)
+print(ggplot(melt(mA),aes(Var1,Var2,fill=value))+geom_tile()+scale_fill_gradient(low="white",high="blue")+labs(title="Heatmap of Matrix A",x="Column",y="Row"))
+print(ggplot(data.frame(Row=paste("Row",1:3),Sum=rowSums(mB)),aes(Row,Sum))+geom_bar(stat="identity",fill="green")+labs(title="Sums of Rows in Matrix B",x="Row",y="Sum"))

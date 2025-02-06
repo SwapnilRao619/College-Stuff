@@ -1,0 +1,8 @@
+library(dplyr)
+library(ggplot2)
+set.seed(42)
+d=data.frame(C_ID=1:100,P_A=runif(100,10,200))
+write.csv(d,"c.csv")
+p=read.csv("c.csv")%>%mutate(Segment=ifelse(P_A<median(P_A),"Low","High"))
+cat(sprintf("Details:\n1.Records: %d\n2.Unique: %d\n3.Mean: %.2f\n4.Median: %.2f\n5.SD: %.2f",nrow(p),length(unique(p$C_ID)),mean(p$P_A),median(p$P_A),sd(p$P_A)))
+print(ggplot(p,aes(P_A))+geom_histogram(binwidth=5,col="black",fill="blue")+labs(title="Purchase Distribution",x="Amount",y="Count"))

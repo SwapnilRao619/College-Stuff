@@ -1,0 +1,5 @@
+library(forecast)
+s<-ts(c(12000,15000,18000,16000,20000,22000),frequency=12,start=c(2023,1))
+f<-forecast(auto.arima(s),h=3)
+print(f)
+plot(f)
