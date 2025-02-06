@@ -1,0 +1,422 @@
+
+[Log Info:]
+version :	1
+row_count :	3
+max_log_row :	5000
+max_file_row :	1000
+hide_date :	TRUE
+include_severity :	TRUE
+file_count :	1
+
+[File List:]
+14620_07-10-2024_01.22.07	3	01:22:07 Jul 10 2024	01:22:07 Jul 10 2024
+
+[Column Dependency List:]
+dependency_count :	1
+6	7
+
+
+[Summary]
+
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Application
+7	SubClass	2	Background Traffic
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Application
+7	SubClass	2	Custom Application
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Application
+7	SubClass	2	Phase
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Application
+7	SubClass	2	Setup
+incident_count :	1
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Ethernet
+7	SubClass	2	Model Configuration
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	IGMP Host
+7	SubClass	2	Model_Configuration_Warning
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	IP
+7	SubClass	2	Model_Configuration_Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	IP
+7	SubClass	2	Model_Configuration_Warning
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	IP
+7	SubClass	2	QoS
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	RIP
+7	SubClass	2	Attribute Settings
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	RIP
+7	SubClass	2	Neighbor Modules
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	RIP
+7	SubClass	2	Routing Table Configuration
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	RSVP
+7	SubClass	2	Model_Configuration_Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	SIP
+7	SubClass	2	Signaling
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Advanced_Server_Configuration
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Attribute_Definition
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Disk_Access
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Disk_Definition
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Job_Definition
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Raid
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Target != Measured
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Undefined_Job_Class
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Server
+7	SubClass	2	Undefined_Server
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	TCP
+7	SubClass	2	Setup
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	Transport_Interface
+7	SubClass	2	Setup
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Configuration
+6	Class	2	UDP
+7	SubClass	2	Neighbor Modules
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Application
+7	SubClass	2	Custom Application
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Application
+7	SubClass	2	Phase
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	IGMP Host
+7	SubClass	2	Model_Internals_Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	IP
+7	SubClass	2	Address_Mapping_via_NATO
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	IP
+7	SubClass	2	KP_Invocation_Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	RIP
+7	SubClass	2	Create UDP Receive Port
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Disk
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Instance_Internal
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Invalid_Event_Handle
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Job_Interarrival
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Missing_Attribute
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Missing_Child_Process
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Missing_Information
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Server
+7	SubClass	2	Remote Storage Access
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	Simulation
+7	SubClass	2	Message
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	TCP
+7	SubClass	2	Kernel_Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	UDP
+7	SubClass	2	Create Local Port
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Low-Level
+6	Class	2	UDP
+7	SubClass	2	LLM Related
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	Application
+7	SubClass	2	Cli-Svr
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	Ethernet
+7	SubClass	2	Packet Drop
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	ICMP
+7	SubClass	2	Timeout
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	IP
+7	SubClass	2	Higher Layer Protocol Register
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	IP
+7	SubClass	2	Packet Drop
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	IP
+7	SubClass	2	Protocol_Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	IP
+7	SubClass	2	Protocol_Warning
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	IP
+7	SubClass	2	Static_Auto_Assignment_Warning
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	IP
+7	SubClass	2	Wireless2Intf_Auto_Assignment_Warning
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	RIP
+7	SubClass	2	Timeouts
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	RSVP
+7	SubClass	2	Model Configuration Error
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	TCP
+7	SubClass	2	Data_Transmission
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	Transport_Interface
+7	SubClass	2	Data_Transmission
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Protocol
+6	Class	2	UDP
+7	SubClass	2	Packet Drop
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	Application
+7	SubClass	2	Invalid Results
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	Application
+7	SubClass	2	No Results
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	Application
+7	SubClass	2	Traffic Generation
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	Ethernet
+7	SubClass	2	No Results
+incident_count :	1
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	Ethernet
+7	SubClass	2	Performance
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	IP
+7	SubClass	2	Results
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	IP
+7	SubClass	2	Unexpected_Results
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	RIP
+7	SubClass	2	Performance
+incident_count :	0
+
+log_handle_column_count :	3
+5	Category	2	Results
+6	Class	2	Transport_Interface
+7	SubClass	2	No_Results
+incident_count :	0
