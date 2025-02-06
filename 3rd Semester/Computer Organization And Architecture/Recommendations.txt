@@ -1,6 +1,6 @@
 For this subject, we did not get complete notes as such for all the units and had to do self study from textbooks.
 This link helps quite a lot too: https://backbencher.club/computer-organization-and-architecture/ 
-However, I did write my own handwritten notes as it was a core subject which I wanted to learn for placements etc. in general. I have not uploaded that as I don't have the time and patience to click photos, compile and all.
+However, I did write my own handwritten notes as it was a core subject which I wanted to learn for placements etc. in general. I have not uploaded that as I don't have the time and patience to click photos, compile and all of that stuff.
 I used:
 1) Prescribed Textbook
 2) Neso Academy
