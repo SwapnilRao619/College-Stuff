@@ -1,0 +1,7 @@
+source bash.sh
+pig --version
+mkdir <pn>
+cd <pn>
+vi <pn>.pig (ENTER CODE)
+pig -x local <pn>.pig 
+cat <foldername>/*

@@ -1,0 +1,8 @@
+source bash.sh
+spark-shell
+CNTL+C
+mkdir <pn>
+cd <pn>
+vi <pn>.py (ENTER CODE)
+spark-submit <pn>.py <inpfile> <outpdir>
+cat <outpdir>/*

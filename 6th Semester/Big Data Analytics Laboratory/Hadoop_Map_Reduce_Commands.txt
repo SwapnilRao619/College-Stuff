@@ -1,0 +1,9 @@
+source bash.sh
+mkdir <pn>
+cd <pn>
+vi <driver mapper reducer>.java (ENTER CODE)
+javac -d . *.java 
+vi Manifest.txt (Main-class: <pn>.driver)
+jar cfm <pn>.jar Manifest.txt <pn>/*.class
+hadoop jar <pn>.jar <inpfile> <outpdir>
+cat <outpdir>/*
