@@ -1,0 +1,4 @@
+Mini Project was a 5-credit course for us and it involved:
+1) No internal (CIEs) tests for us. Instead, it has a multi-phase evaluation.
+2) A SEE which would include a write-up about the project along with a project demo, to the externals.
+You can convert your industry project worklet (Unisys/Samsung PRISM/HPE CPP-2/etc.) into a mini project, provided you have the same teammates agreeing to join the group.

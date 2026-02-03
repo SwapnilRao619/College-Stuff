@@ -1,0 +1,58 @@
+Chap 6
+6.1
+6.3
+6.4
+6.5
+6.6
+6.7
+6.9
+6.10 2 examples pg 187, 191, 193 important
+6.11 problems bvp
+Learn problems and algorithms
+Problems 8 to 10 marks
+
+Chap 9
+9.1 draw pg 276
+9.2
+9.3
+9.4
+9.6
+9.7
+9.8
+9.9
+9.10
+
+--------
+
+
+Cloud computing important topics for CIE 2:
+
+Chapter 5:
+5.4 - Pg 137 diagram
+5.6 - Pg 147 virtualization full and para virtualization
+
+5.7 Hardware support for virtualization
+5.9 Zen case study
+Pg 155 - 5.11 Performance comparison (with diagram). Very important 
+ 
+Chapter 6: (unit 4 - ez scoring. Problems will come)
+6.1 - policies and whatever
+6.3
+6.4
+6.5
+6.6
+6.7
+6.9
+6.10 - 2 examples are there. Both are almost the same. Learn the problems in pages 187, 191, 193
+6.11 - two problems under bvt or something
+
+Chapter 9: (unit 5)
+9.1 - diagram on how security attacks etc in page 276
+9.2
+9.3
+9.4
+9.6
+9.7
+9.8 not really required, but do
+9.9
+9.10 not in syllabus, but just to be sure

@@ -1,0 +1,2 @@
+Unit 3 is 10% theory (about PERT and CPM) and 90% numericals. I would recommend referring to the PYQs (CIEs and SEEs) to get an idea of the type of questions.
+Post-that, I would recommend referring to your class notes, because the type of numericals might change for every batch and we were not provided with slides per-say and instead had to strictly refer to class notes.

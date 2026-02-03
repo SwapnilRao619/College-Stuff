@@ -1,0 +1,3 @@
+Gen AI Laboratory was a 2-credit course for us and it involved:
+1) No internal (CIEs) tests for us. Instead, it has a multi-phase project evaluation, along with Viva and submission of per-class tutorials, both the hardcopy and softcopy in Google Classrooms. There's also 1-2 quizzes (MCQs) for the quiz component.
+2) A SEE which would include a write-up about the project along with a project demo, to the externals.
